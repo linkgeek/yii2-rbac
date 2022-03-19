@@ -23,7 +23,7 @@ RBAC权限控制演示
 * 配置web server 请参考文档部分的 nginx 或者 apache
 * 数据库配置
     * 新建数据库名 rbac
-    * 参考文档部分 数据库文件 将 里面的 sql 语句 全部执行
+    * 参考文档部分 数据库文件 将 里面的 sql 语句 全部执行；可直接执行docs/yii2_rabc.sql文件，里面包含基础测试数据
     * [可选] 修改 config/db.php 文件 配置 username 和 password 为自己环境数据库用户名和密码
 * 安装依赖
     * composer install，如果安装失败，尝试忽略版本要求：composer install --ignore-platform-reqs 
