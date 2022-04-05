@@ -18,7 +18,7 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
-    <title>RBAC打造通用web管理权限</title>
+    <title>yii2-RBAC打造通用web管理权限</title>
     <?php $this->head() ?>
 </head>
 <body>
@@ -64,7 +64,7 @@ AppAsset::register($this);
         <?=$content;?>
         <hr/>
         <footer class="navbar-fixed-bottom text-center">
-            <p>RBAC打造通用web管理权限 Power By 加藤非</p>
+            <p>yii2-RBAC打造通用web管理权限 Power By 加藤非</p>
         </footer>
     </div>
 </div>
